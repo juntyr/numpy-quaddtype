@@ -5688,6 +5688,7 @@ def test_quadprecision_large_exponents(val, pow):
     value_str = mp.nstr(mp.mpf(str(value)), 33)
     expected_str = mp.nstr(mp_value, 33)
     assert value_str == expected_str, f"QuadPrecision({val}) ** {pow} = {value_str}, expected {expected_str}"
+    
 class TestSortingOperations:
     """Test suite for sorting operations using the compare slot."""
 
