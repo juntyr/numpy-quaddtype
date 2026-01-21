@@ -32,6 +32,12 @@ pip install "numpy>=2.4"
 pip install numpy-quaddtype
 ```
 
+Or grab the development version with
+
+```bash
+pip install git+https://github.com/numpy/numpy-quaddtype.git
+```
+
 ## Usage
 
 ```python
