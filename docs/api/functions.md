@@ -158,7 +158,6 @@ When QuadBLAS is available (not on Windows):
 
 | Function | Description |
 |----------|-------------|
-| `np.dot` | Dot product |
 | `np.matmul` / `@` | Matrix multiplication |
 
 ## Type Conversion

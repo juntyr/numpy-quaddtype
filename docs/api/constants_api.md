@@ -79,7 +79,7 @@ Pre-defined mathematical constants with quad precision accuracy.
 
    The smallest positive normal (normalized, mantissa has a leading 1 bit) quad-precision value.
 
-   :value: :math:`2^{-16382} \cdot (1 - 2^{-112})` or approximately :math:`3.36 \cdot 10^{-4932}`
+   :value: :math:`2^{-16382}` or approximately :math:`3.36 \cdot 10^{-4932}`
 
    :type: QuadPrecision
 
