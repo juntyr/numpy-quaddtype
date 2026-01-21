@@ -34,9 +34,6 @@ if host_machine.cpu_family() == 'x86_64' or host_machine.cpu_family() == 'x86'
     sleef_purecfma_flag = ['-DSLEEF_DISABLE_PURECFMA_SCALAR=ON']
   else
     # Auto-detect FMA support at configure time by actually running FMA code
-    # Note: cc.compiles() with -mfma always passes because compilers support generating
-    # FMA instructions even for CPUs that don't have them. We need cc.run() to verify
-    # the CPU actually supports FMA at runtime.
     fma_test_result = cc.run('''
       #include <immintrin.h>
       int main(void) {
