@@ -59,7 +59,7 @@ jobs:
       - name: Build compiled dependencies for Pyodide
         run: |
           pyodide build-recipes \
-            --recipe-dir tools/ci/pyodide-recipes/packages \
+            --recipe-dir pyodide-recipes/packages \
             --install \
             numpy numpy-quaddtype
 
